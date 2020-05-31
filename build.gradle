@@ -5,6 +5,11 @@ buildscript {
 			name = "forge"
 			url = "http://files.minecraftforge.net/maven"
 		}
+
+		maven {
+			name = "mcmultipart"
+			url "http://maven.amadornes.com/"
+		}
 	}
 	dependencies {
 		classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
